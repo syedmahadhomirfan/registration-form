@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Registration Form</title></head><body><form action="#" method="post"><h2>Registration Form</h2><label for="name"><b>Name:</b></label><br><input type="text" id="name" name="name"><br><br><label for="password"><b>Password:</b></label><br><input type="password" id="password" name="password"><br><br><label for="email"><b>E-mail:</b></label><br><input type="text" id="email" name="email"><br><br><label for="phone"><b>Phone Number:</b><br><input type="text" id="phone" name="phone"><br><br><b>Sex:</b><br><label for="male">Male</label><br><input type="radio"name="sex"id="male"value="male"><label for="female">Female</label><br><br><input type="radio"name="sex"id="female"value="female">Female<b>Date Of Birth:</b><br><select name="day" id="day"><option value="1">1</option><option value="2">2</option></select><select name="month" id="month"><option value="November">November</option><option value="April">April</option><option value="September">September</option></select><select name="year" id="year"><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option></select><br><br><label>
+<b>Languages Known:</b></label><br>
+	
+	<input type="checkbox" name="english" id="english" value="English">
+	<label for="english">English</label><br>
+	<input type="checkbox" name="telugu" id="telugu" value="Telugu">
+	<label for="telugu">Telugu</label><br>
+	<input type="checkbox" name="hindi" id="hindi" value="Hindi">
+	<label for="hindi">Hindi</label><br>
+	<input type="checkbox" name="tamil" id="tamil" value="Tamil">
+	<label for="tamil">Tamil</label><br><br>
+	<label for="address"><b>Address:</b></label><textarea name="address" id="address" row="5" col="10"></textarea><br><br><input type="submit" value="submit"></form></body></html> 
+
